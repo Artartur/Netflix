@@ -1,0 +1,54 @@
+:root{
+    --vermelho: #e11721;
+    --preto: #212121;
+    --branco: rgb(255, 255, 255);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Capriola', sans-serif;
+    color:var(--branco);
+}
+header .principal{
+    border: 1px solid rgb(0, 0, 0);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+header .logo{
+    color: var(--vermelho);
+    font-size:40px;
+    margin-left:5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--branco);
+    margin-right: 20px;
+}
+header nav a:hover{
+    color: rgb(162, 162, 162);
+    
+}
+.anime-principal{
+    font-size: 16;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(/imgs/naruto.jpg) ;
+    height:500px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.anime-principal .descricao{
+    margin-bottom:100px;
+}
+.titulo{
+    font-size:60px;
+}
