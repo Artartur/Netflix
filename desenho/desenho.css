@@ -1,0 +1,47 @@
+:root{
+    --vermelho: #e11721;
+    --preto: #212121;
+    --branco: rgb(255, 255, 255);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Capriola', sans-serif;
+    color:var(--branco);
+}
+header .principal{
+    border: 2px solid rgb(0, 0, 0);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+header .logo{
+    color: var(--vermelho);
+    font-size:60px;
+    margin-left:5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 30px;
+}
+header nav a:hover{
+    color: rgb(186, 186, 186); 
+}
+.desenho-principal{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)),url(/desenho/imgs/MashaeUrso.jpg);
+    background-size: cover;
+    height:700px;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}

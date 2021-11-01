@@ -37,9 +37,10 @@
         background-color: rgba(0,0,0,.50);
         color:white;
         border:none;
+        height:100px;
         padding:20px 40px;
         cursor: pointer;
-        font-size:12px;
+        font-size:18px;
         transition: .4s ease all;
         margin-left:30px;
         margin-top:10%;
@@ -48,6 +49,44 @@
         font-size:16px;
         background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(/imgs/naruto2.jpg);
         height:800px;
+        background-size: cover;
+        display:flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+}
+@media screen and (min-width:2200px){
+    header .container{
+        display:flex;
+        flex-direction: column;
+    }
+    .anime-principal .descricao{
+        margin-top:8%;
+        margin-left:30px;
+        font-size:30px;
+    }
+    .titulo img{
+        height:200px;
+        width:500px;
+    }
+    .botao{
+        background-color: rgba(0,0,0,.50);
+        color:white;
+        border:none;
+        height:100px;
+        padding:20px 40px;
+        cursor: pointer;
+        font-size:20px;
+        transition: .4s ease all;
+        margin-left:30px;
+        margin-top:10%;
+    }
+    .anime-principal{
+        font-size:16px;
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(/imgs/naruto2.jpg);
+        height:900px;
         background-size: cover;
         display:flex;
         align-items: flex-start;
