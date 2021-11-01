@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Armesflix</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Capriola&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/responsive.css">
 </head>
 <body>
     <header>
@@ -14,7 +17,7 @@
             <h2 class="logo">Armesflix</h2>
             <nav>
                 <a href="#">Inicio</a>
-                <a href="#">Desenhos</a>
+                <a href="/desenho/desenho.html">Desenhos</a>
                 <a href="#">Animes</a>
                 <a href="#">Filmes</a>
             </nav>
@@ -24,8 +27,8 @@
     <main>
         <div class="anime-principal">     
             <div class="container">
-                <h3 class="titulo"> Naruto</h3>
-                <p class="descricao"> Naruto é um jovem orfão que sonha em ser o hokage da vila da Folha<br>para ser respeitado por todos aqueles que o menosprezam.</p>
+                <h3 class="titulo"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Naruto_logo.svg"></h3>
+                <p class="descricao"> Naruto é um jovem orfão que sonha em ser o hokage da <br>vila da Folha para ser respeitado por todos aqueles que<br> o menosprezam.</p>
             </div>
 
             <div class="botoes">
@@ -37,16 +40,73 @@
                 <i class="fas fa-info-circle"></i>
                 MAIS INFORMAÇÕES
             </button>
-            </div>
-            
+            </div>   
         </div>
-    </main>
+    </main><br><h2 class="assistidos"> Mais Assistidos</h2><br>
+    <div class="carousel-animes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class ="box-anime" src="imgs/pokemon.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/shigenki.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/boruto.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/kimetsu.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/dragonball.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/bleach.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/jujutsu.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/dr.stone.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/narutoshippuden.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/hunter.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/cdz.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/blackclover.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/tokyoghoul.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/bokunohero.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/tokyorevengers.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/onepunch.jpg">
+            </div>
+            <div class="item">
+                <img class ="box-anime" src="imgs/deathnote.jpg">
+            </div>
+        </div>
+    </div>
 
     <footer>
     </footer>
 
     <script src="https://kit.fontawesome.com/55317b30e3.js" crossorigin="anonymous"></script>
-
+    <script src="/JS/jquery.min.js"></script>
+    <script src="/JS/owl.carousel.min.js"></script>
+    <script src="/JS/script.js"></script>
+    <script src="/JS/main.js"></script>
 </body>
 
 
