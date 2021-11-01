@@ -1,5 +1,5 @@
 # Netflix
-Making "Netflix" website with DIO's course
+Making a modified "Netflix" site with DIO's course
 
 ![image](https://user-images.githubusercontent.com/86370873/139612018-f3e67bd1-2752-46da-aeca-78ba48c5687f.png)
 ![image](https://user-images.githubusercontent.com/86370873/139612047-a41fa4c5-dfc0-43e2-8289-186b790238d4.png)
